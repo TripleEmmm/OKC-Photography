@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Our Work</h2>
+        <p>Click on an image to view it in full size.</p>
+
+        <div class="gallery">
+            <img src="images/photo1.jpg" alt="Food photography example" class="gallery-item">
+            <img src="images/photo2.jpg" alt="Product photography example" class="gallery-item">
+            <img src="images/photo3.jpg" alt="Another food photography example" class="gallery-item">
+        </div>
+    </section>
+
+    <!-- Lightbox Container -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" src="" alt="Enlarged Image">
+    </div>
+
+    <footer>
+        <p>Follow us on:</p>
+        <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a> |
+        <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a> |
+        <a href="https://www.tiktok.com/@yourprofile" target="_blank">TikTok</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
